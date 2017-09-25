@@ -39,3 +39,15 @@ if treeQuote == sameTreeQuote
 {
     print("These two strings are consdiered equal")
 }
+
+
+
+
+
+
+
+
+var age = 2315
+var speed = 654.324536
+var rate = age/Int (speed)  //is an Int
+var ratez = Double (age)/(speed) //changed to a double
