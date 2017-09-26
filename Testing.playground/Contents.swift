@@ -27,7 +27,7 @@ let message = "The hight of the tree is the age \(treeAge) times 5.9 which is \(
 
 //Counting Characters - use the count property of the string
 
-var treeList :String = "Aspen, Oak, Ash, Mapel, Pine, Palm."
+var treeList :String = "Aspen, Oak, Ash, Mapel, Pine, and Palm"
 print("the number of characters in \(treeList) is \(treeList.characters.count)")
 
 //Comparing Strings - 3 ways to compare, string and character quality, prefix equality, and suffix equality
@@ -46,8 +46,13 @@ if treeQuote == sameTreeQuote
 
 
 
-
+//Changing Var from int to doubles
 var age = 2315
 var speed = 654.324536
 var rate = age/Int (speed)  //is an Int
 var ratez = Double (age)/(speed) //changed to a double
+
+//Can use emoji's and symbols in Swift
+var 😿 = -34254 //get emojis with "edit --> Emojis and symbols"
+print(😿)
+
