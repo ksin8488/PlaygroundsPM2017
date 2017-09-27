@@ -45,3 +45,24 @@ while(test < counting())    //method MUST have the parens () on them
 }
 
 print("yay")
+
+//
+////more complicated method
+//notSoSimpleMethod(name: "Neil Gaiman")
+//pubic func evenLessSimpleMethod(count :Int, bandName :String, date :String) -> Void
+//{
+//    let info = "I have seen " + bandName + " \(count) times since \(date)"
+//    print(info)
+//}
+//
+//evenLessSimpleMethod(count: 4,
+//                     bandName: "They Might Be Giants",
+//                     date: "June, 1992")
+//
+//public func calculateDays(first firstDay :Int, secondDay :Int) -> Int
+//{
+//    let answer = secondDay - firstDay
+//    return answer
+//}
+//
+//calculateDays(first: 4, secondDay:5)
