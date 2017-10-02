@@ -66,3 +66,19 @@ print("yay")
 //}
 //
 //calculateDays(first: 4, secondDay:5)
+
+
+
+
+//Using Classes & methods
+var notesToday = "Using Swift to make classes and methods"
+
+public class SimpleClass
+{
+    private var name :String
+    
+    public init()
+    {
+        name = "My name is ....."
+    }
+}
