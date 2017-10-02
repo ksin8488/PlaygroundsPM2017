@@ -113,7 +113,18 @@ public class OtherClass
         self.favoriteNumber *= 1238
         self.favoriteWord += " and more and more"
     }
+
+//getters to be able to view the private members
+    public func getFavoriteNumber() -> Int
+    {
+        return self.favoriteNumber
+    }
     
+    public func getFavoriteWord() -> String
+    {
+        return self.favoriteWord
+    }
+
 }
 //Swift version
 var secondClass = OtherClass()
